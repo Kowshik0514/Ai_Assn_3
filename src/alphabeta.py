@@ -4,20 +4,6 @@ import time
 
 class AlphaBetaAgent:
     """Chess agent using the Alpha-Beta pruning algorithm"""
-
-    def __init__(self, depth=4):
-        self.depth = depth
-        self.nodes_explored = 0
-        self.max_time = 60  
-
-    def choose_move(self, board):
-        """Choose the best move using Alpha-Beta pruning"""
-        self.nodes_explored = 0
-        start_time = time.time()
-        maximizing = board.turn == chess.WHITE
-
-        best_move = None
-        best_value = float('-inf') if maximizing else float('inf')
         alpha = float('-inf')
         beta = float('inf')
 
