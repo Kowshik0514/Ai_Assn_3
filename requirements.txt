@@ -1,7 +1,8 @@
-setuptools>=68.0.0
-wheel>=0.40.0
-python-chess>=1.999
-numpy>=1.22.0
-moviepy>=1.0.3
-Pillow>=10.0.0
-svgwrite>=1.4.3 
+gym-chess==0.1.1
+numpy==1.24.3
+chess==1.9.4
+matplotlib==3.7.2
+pygame==2.5.0
+opencv-python==4.8.0.74
+jupyter==1.0.0
+tqdm==4.65.0
