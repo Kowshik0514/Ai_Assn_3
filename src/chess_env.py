@@ -7,7 +7,7 @@ class ChessEnvironment:
     """Wrapper around gym-chess environment for our AI implementation"""
 
     def __init__(self):
-        self.env = gym.make('Chess-v0')
+        self.-v0')
         self.board = chess.Board()
         self.reset()
 
