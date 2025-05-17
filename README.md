@@ -1,6 +1,5 @@
 # Slime Volleyball AI Implementation
 
-This project implements Minimax and Alpha-Beta pruning algorithms for the Slime Volleyball game environment. The implementation includes:
 
 1. A custom Slime Volleyball game environment
 2. Minimax algorithm implementation
